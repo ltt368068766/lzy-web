@@ -21,10 +21,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: dzlkuboy/git@github.com:dzlkuboy/amazing-sentences.git
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vitepress/dist/
+        REPOSITORY_NAME: dzlkuboy/git@github.com:dzlkuboy/amazing-sentences.git
+        BRANCH: gh-pages
+        FOLDER: docs/.vitepress/dist/
