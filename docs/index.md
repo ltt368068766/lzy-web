@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: 多言数穷，不如守中
-  text: 守正出奇, 知行合一
+  text: 守正出奇, 知行合一, 在知中行, 在行中知
   actions:
     - theme: brand
-      text: 打开知识的大门
+      text: OPEN
       link: /daily/
 
 features:
@@ -15,6 +15,7 @@ features:
     link: /daily/
   - icon: 🪓
     title: 来源互联网
+    link: /daily/
 ---
 
 
