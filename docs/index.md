@@ -8,6 +8,9 @@ hero:
     - theme: brand
       text: OPEN
       link: /daily/
+    - theme: alt
+      text: 前端开发相关笔记
+      link: https://du_zhao_lin.gitee.io/vitepress-template/
 
 features:
   - icon: ⚡️
