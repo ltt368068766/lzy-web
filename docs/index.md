@@ -49,4 +49,8 @@ features:
   .VPFeature .icon {
     margin-right: 20px;
   }
+
+  #app {
+    
+  }
 </style>

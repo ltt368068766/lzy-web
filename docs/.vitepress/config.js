@@ -29,6 +29,10 @@ export default defineConfig({
         link: '/daily/'
       },
       {
+        text: "关于",
+        link: "/about/",
+      },
+      {
         text: '歌单',
         link: '/song/'
       },
@@ -54,7 +58,8 @@ export default defineConfig({
             }
           ]
         }
-      ]
+      ],
+
     }
   }
 })
