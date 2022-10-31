@@ -29,6 +29,10 @@ export default defineConfig({
         link: '/daily/'
       },
       {
+        text: '每日一句',
+        link: '/sentence-day/'
+      },
+      {
         text: "关于",
         link: "/about/",
       },
@@ -59,7 +63,19 @@ export default defineConfig({
           ]
         }
       ],
-
+      '/sentence-day/': [
+        {
+          text: '每日一句',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              text: '英语',
+              link: '/sentence-day/'
+            }
+          ]
+        }
+      ]
     }
   }
 })
