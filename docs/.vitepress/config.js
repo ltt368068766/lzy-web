@@ -37,7 +37,7 @@ export default defineConfig({
         link: "/about/",
       },
       {
-        text: '歌单',
+        text: '必读书籍必听音乐',
         link: '/song/'
       },
       {
@@ -72,6 +72,23 @@ export default defineConfig({
             {
               text: '英语',
               link: '/sentence-day/'
+            }
+          ]
+        }
+      ],
+      '/song/': [
+        {
+          text: '必看必读',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              text: '歌单',
+              link: '/song/'
+            },
+            {
+              text: '书籍',
+              link: '/song/book'
             }
           ]
         }

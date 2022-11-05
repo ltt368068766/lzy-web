@@ -54,3 +54,5 @@ features:
     
   }
 </style>
+
+<global-comp />
