@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as _,d as a}from"./app.8bbc0892.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"daily/\u611F\u609F.md","lastUpdated":1667658095000}'),p={name:"daily/\u611F\u609F.md"},r=a("",7),o=[r];function s(c,n,d,i,l,m){return e(),_("div",null,o)}const T=t(p,[["render",s]]);export{u as __pageData,T as default};
