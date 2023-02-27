@@ -89,6 +89,14 @@ export default defineConfig({
             {
               text: '书籍',
               link: '/song/book'
+            },
+            {
+              text: '摄影入门',
+              link: '/song/相机'
+            },
+            {
+              text: '旅游攻略',
+              link: '/song/旅游攻略'
             }
           ]
         }
