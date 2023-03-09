@@ -3,7 +3,8 @@
     color: isRandomColor ? randomBackground : 'var(--vp-c-divider-light)'
   }" :class="{ 'line1': type !== 1 }">
     <div class="params-item">
-      <span v-if="type === 1">更新时间: {{ time }}</span>
+      <span v-if="type === 1 && showTime">更新时间: {{ time }}</span>
+      <span v-if="type === 1 && !showTime">{{ time }}</span>
       <span v-else>{{ globalTitle }}</span>
       <span>{{ mood }}</span>
     </div>
@@ -34,6 +35,10 @@ const props = defineProps({
   createTime: {
     type: String,
     default: new Date().toLocaleDateString().split('/').join('-') + '/' + new Date().toLocaleTimeString()
+  },
+  showTime: {
+    type: Boolean,
+    default: true
   }
 })
 
